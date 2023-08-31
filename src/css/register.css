@@ -1,0 +1,233 @@
+body {
+    background-color: #dedede;
+    margin: 0;
+  }
+  .head {
+    background-color: white;
+  }
+  .menu {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+  }
+  .button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-color: orange;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: white;
+    text-decoration: none;
+  }
+  .btn {
+    border-radius: 8px;
+    border: 1px solid orange;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: orange;
+    text-decoration: none;
+  }
+  .button:hover {
+    background-color: maroon;
+  }
+  .btn:hover {
+    background-color: maroon;
+    border: 1px solid maroon;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    .lien-item:hover {
+      color: orange;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  }
+  .item_btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .menu_item {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  }
+  .lien-item {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  
+  .section {
+    padding: 75px 0px;
+}
+.section-blue {
+    background-color: darkgray;
+}
+h1 {
+    font-weight: 700;
+    text-align: center;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+.login{
+    background-color: white;
+    margin: auto;
+    width: 40%;
+    border-radius: 8px;
+    padding-left:20px ;
+    padding-right: 20px;
+    margin-top: 30px; 
+    margin-bottom: 60px;
+    padding: 32px;
+  }
+label {
+    font-weight: 600;
+    display: inline;
+    color: black;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .item-input {
+    padding: 16px;
+    width: 100%;
+    background: gainsboro;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    border-left: 5px solid orange;
+  }
+  .log {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 16px 16px;
+    margin-bottom: 34px;
+    background-color: orange;
+    border: 1px solid orange;
+    cursor: pointer;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  #input1 {
+    margin-bottom: 15px;
+  }
+  #input2{
+    margin-bottom: 32px;
+  }
+  .register {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .items {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+  }
+
+
+ 
+  
+  
+  
+  
+  
+  .item-h4 {
+    color: orange;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+  .inpute {
+    padding: 8px 24px;
+    width: 80%;
+    background: gainsboro;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    padding-bottom: 16px;
+    padding: 16px 16px;
+    border-left: 5px solid orange;
+    padding-bottom: 16px;
+  }
+  label {
+    font-weight: 600;
+    display: inline;
+    color: black;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .footer-item {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 30px;
+  }
+  .grph1 {
+    counter-reset: #dedede;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .item-p {
+    display: flex;
+    gap: 10px;
+  }
+  footer {
+    background-color: #F8F9FA;
+    padding: 24px 24px;
+  }
+  #env {
+    padding-top: 0 16px 0 0 ;
+  }
+  .ronded {
+    background-color: orange;
+    padding: 16px 18px;
+    border-radius: 50%;
+  }
+  .rond {
+    color: white;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .ronded:hover {
+    background-color: maroon;
+  }
+  
+  
+  .item-pied {
+    color: black;
+    font-weight: 500;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    width: 180px;
+  }
+  .pied-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 24px;
+    background-color: white;
+  }

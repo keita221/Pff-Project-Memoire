@@ -1,0 +1,38 @@
+.section {
+    padding: 75px 0px;
+}
+.section-baige {
+    background-color: gainsboro;
+}
+.section-nille {
+    background-color: #F8F9FA;
+}
+.section-white {
+  background-color: white;
+}
+.item-classe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.item-client {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr  1fr;
+   gap: 30px;
+   width: 200px;
+}
+
+.section-title1 {
+  text-align: left;
+  color: #0D3973;
+  font-weight: 700;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.section-title2 {
+    text-align: center;
+    color: #0D3973;
+    font-weight: 700;
+    padding-bottom: 32px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
